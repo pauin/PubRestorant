@@ -1,0 +1,55 @@
+#nav{
+    background-image: url("/ASSETS/IMG/fondo.jpg");
+    background-size: 25rem;
+    background-repeat: repeat;
+    height: 7rem;
+}
+
+img{
+    background-color: black;
+}
+
+.titulo{
+    text-align: center;
+    color: grey;
+}
+#titulo{
+    font-size: 3rem;
+    margin: 2rem;
+}
+.tarjetas{
+    margin: 2rem;
+}
+.card-img{
+    height: 15rem;
+}
+
+h4{
+    text-align: center;
+}
+.img{
+    width: 20%;
+    height: 20%;
+}
+ #destacado{
+    width: 60%;
+    text-align: center;
+    display: none;
+    background-color: black;
+    position: fixed;
+    top: 15%;
+    bottom: 15%;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    color: white;
+ }
+ #destacado img{
+    width: 70%;
+    height: 300px;
+ }
+ .btn-close{
+    margin-left: 0;
+    margin-right: 100%;
+ }
+
