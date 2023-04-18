@@ -42,6 +42,7 @@ $(document).ready(function () {
     })
 
 })
+
 //destacados
 $(document).ready(function () {
     var titulo, descripcion, imagen;
@@ -80,10 +81,19 @@ $(document).ready(function () {
     })
 })
 
+
+$(document).ready(function () {
+    $("#nosotros").click(function () {
+        $("#sobreNosotros").show()
+    })
+})
+
 $(".btn-close").click(function(){
     $("#destacado").hide()
 })
-
+$(".btn-close").click(function(){
+    $("#sobreNosotros").hide()
+})
 
 
 
